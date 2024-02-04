@@ -17,10 +17,10 @@ app.use(express.json());
 // User account info
 const connection = mysql.createConnection({
 	host: "localhost",
-	user: "crudDB",
-	password: "crudDB",
-	database: "crudDB",
-	socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock", //path to mysql sock in MAMP
+	user: "C_info",
+	password: "C_info",
+	database: "C_info",
+	// socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock", //path to mysql sock in MAMP
 });
 
 // Connect to MySQL
